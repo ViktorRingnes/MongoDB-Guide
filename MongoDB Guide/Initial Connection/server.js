@@ -2,6 +2,7 @@
 const { MongoClient } = require('mongodb'); // MongoDB driver for Node.js
 const bodyParser = require('body-parser'); // Middleware to parse incoming request bodies
 const cors = require('cors'); // Middleware for enabling CORS (Cross-Origin Resource Sharing)
+const express = require('express');
 
 // Initialize the express application
 const app = express();
