@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Maven+Pro:wght@700&display=swap');
+
+:root {
+    --primary: #f2f2f2;
+    --secondary: #28334A;
+    --ter: #1C2331;
+    --font-family: 'Kanit', Arial, sans-serif;
+}
+
+#login-body,
+#login-html {
+    height: 100%;
+    margin: 0;
+    font-family: var(--font-family);
+    background-color: var(--primary);
+    color: var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-form-wrapper {
+    background-color: var(--primary);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 500px;
+}
+
+#login-reg-direct-body {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+#login-reg-direct {
+    height: 0px;
+    opacity: 0.6;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    cursor: pointer;
+}
+
+#login-usernamelabel,
+#login-passwordlabel {
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+#login-usernamelabel input,
+#login-passwordlabel input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--secondary);
+    border-radius: 5px;
+}
+
+#login-submitBtn:hover {
+    background-color: var(--ter);
+}
+
+#login-redirect {
+    color: var(--secondary);
+    text-decoration: underline;
+}
+
+/* Register from */
+
+#register-body,
+#register-html {
+    height: 100%;
+    margin: 0;
+    font-family: var(--font-family);
+    background-color: var(--primary);
+    color: var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#register-form-wrapper {
+    background-color: var(--primary);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+#register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#register-usernamelabel,
+#register-passwordlabel {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+#register-usernamelabel input,
+#register-passwordlabel input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--secondary);
+    border-radius: 5px;
+}
+
+#register-submitBtn,
+#login-submitBtn {
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    transition: background-color 0.3s ease;
+}
+
+#register-submitBtn:hover {
+    background-color: var(--ter);
+}
+
+#reg-redirect {
+    color: var(--secondary);
+    text-decoration: underline;
+}
+
+#reg-title,
+#login-title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#inval-info-login {
+    display: none;
+    width: 300px;
+    justify-content: flex-start;
+    color: rgb(101, 13, 13);
+}

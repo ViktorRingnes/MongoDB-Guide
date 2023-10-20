@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html id="login-html" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id='login-body'>
+    <div id='login-form-wrapper'>
+        <h1 id="login-title">Login</h1>
+        <form id='login-form'>
+            <label id='login-usernamelabel'>
+                <input id="loginusername-field" placeholder='Username' type='text' name='loginusername' />
+            </label>
+            <label id='login-passwordlabel'>
+                <input id="loginpassword-field" placeholder='Authentication Key' type='password' name='loginpassword' />
+            </label>
+            <p id="inval-info-login"> Invalid username or password</p>
+            <button id='login-submitBtn' type='button'>Login</button>
+            <a id="login-reg-direct-body" href="./index.html">
+                <p id="login-reg-direct"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-arrow-back" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M9 11l-4 4l4 4m-4 -4h11a4 4 0 0 0 0 -8h-1"></path>
+                    </svg>
+                    Back to registration</p>
+            </a>
+        </form>
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
