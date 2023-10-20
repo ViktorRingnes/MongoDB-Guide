@@ -71,7 +71,8 @@ This project contains three main files:
 ## Installing Dependencies
 
 1. Open your terminal and navigate to your project folder.
-2. Run the command `npm install` to install all required packages.
+2. Run the command `npm install` OR `npm install express mongoose bcrypt jsonwebtoken cors dotenv
+` to install all required packages.
 
 ## Running the Application
 
