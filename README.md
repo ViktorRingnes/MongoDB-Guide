@@ -1,4 +1,4 @@
-# Comprehensive MongoDB Guide for Beginners
+# MongoDB Guide for user registration & user login
 
 An all-encompassing guide on MongoDB user registration & login, tailored for someone who's just starting with MongoDB and JavaScript.
 
