@@ -56,12 +56,11 @@ Once connected, proceed to create a new database and collection:
 
 ## Project Files
 
-This project contains four main files:
+This project contains three main files:
 
 1. `server.js` - The main server file.
 2. `login.js` - Handles user login.
 3. `register.js` - Manages user registration.
-4. `database.js` - Database interactions.
 
 ## How to Implement the Code
 
